@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +9,6 @@
     <script src="https://kit.fontawesome.com/a538d6fa29.js" crossorigin="anonymous"></script>
     <title>Bookshelf</title>
 </head>
-
 <body>
     <div class="bg-modal" id="modal">
         <div class="modal-content" id="book-form">
@@ -19,13 +17,13 @@
                     <i class="fas fa-times"></i>
                 </button>
                 <h2 id="form-desc">Add a book </h2>
-                <input type="text" name="book-title" id="book-title" class="text-input" placeholder="Title"
-                    required><br>
-                <input type="text" name="book-author" id="book-author" class="text-input" placeholder="Author"
-                    required><br>
-                <input type="text" name="book-pages" id="book-pages" class="text-input" placeholder="Number of pages"
-                    required><br>
 
+                <!-- text input-->
+                <input type="text" name="book-title" id="book-title" class="text-input" placeholder="Title" required><br>
+                <input type="text" name="book-author" id="book-author" class="text-input" placeholder="Author" required><br>
+                <input type="text" name="book-pages" id="book-pages" class="text-input" placeholder="Number of pages" required><br>
+
+                <!-- radio button-->
                 <label id="radio-label">Have you read this book before?</label>
                 <input type="radio" name="check-read" id="yes" value="yes" required class="radio-btns">
                 <label for="yes" id="radio-yes">Yes</label><br>
@@ -42,10 +40,7 @@
         <h1>Taro's Library</h1>
         <button class="responsive-add-book add-book-button"><i class="fas fa-book"></i>Add Book</button>
     </header>
-    <main class="grid-container" id="main-container">
-
-    </main>
+    <main class="grid-container" id="main-container"></main>
     <script src="script.js"></script>
 </body>
-
 </html>
